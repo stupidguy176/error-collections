@@ -1,12 +1,12 @@
 
-```
+
 ## Issue: 
 A state only get the newest in useEffect. If call a function in ANOTHER useEffect of this state. The state we get not the newest.
 
 ## Demo:
+```
 WHEN myState2 BE CHANGED IN STORE
 the components will have this behaviour
-
 
 const myState1 = useAppSelector(state => state[ns]?.myState1 || null)
 const myState2 = useAppSelector(state => state[ns]?.myState2 || null)
@@ -35,3 +35,4 @@ useEffect(() => {
 
 }
 ```
+
