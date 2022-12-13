@@ -5,7 +5,7 @@ Its return type 'Element | Element[]' is not a valid JSX element.
 ### Links:
 https://stackoverflow.com/questions/62702485/component-cannot-be-used-as-a-jsx-component-its-return-type-element-is-not
 
-### Image"
+### Image:
 #### Issue
 ![](../imgs/6a.png)
 #### Fix
